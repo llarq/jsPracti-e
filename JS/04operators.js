@@ -67,10 +67,10 @@
 // приклад рядка, що має вийти
 // The last letter in my favorite game's name "minecraft" is "T" !
 
-// const m = "dota";
+// const myFavoriteGameName = "dota";
 // const myFavoriteGameText = "my favorite game's name";
-// const lenght = myFavoriteGameName.length;
-// const lastCharacter = (myFavoriteGameName[lenght - 1]);
+// const myFavouriteGamelenght = myFavoriteGameName[myFavoriteGameName.lenght - 1];
+// const lastCharacter = myFavouriteGamelenght.toUpperCase();
 
 // console.log(
 // 	`The last letter in ${myFavoriteGameText} "${myFavoriteGameName}" is "${lastCharacter}" !`
@@ -146,6 +146,10 @@
 // 	console.log('Ви не знаєте? ECMAScript!')
 // };
 
+const message = userInput.toLowerCase() === 'ECMAScript'.toLowerCase() ? 'Правильно!' : 'Ви не знаєте? ECMAScript!';
+console.log(message);
+
+
 // ===========================================
 
 // const num1 = 5
@@ -163,12 +167,28 @@
 // ===========================================
 
 
-let type
-const age = 20
-if (age > 18) {
-	type = "adult"
+// let type
+// const age = 20
+// if (age > 18) {
+// 	type = "adult"
+// }
+// else {
+// 	type = "child"
+// };
+// console.log(type);
+
+
+const a = 4;
+const b = 5;
+let result;
+if (a + b < 4) {
+  result = 'Нижче';
+} else {
+  result = 'Вище';
 }
-else {
-	type = "child"
-};
-console.log(type);
+// console.log(result)
+
+
+const newResult = a + b < 4 ? 'Нижче' : 'Вище';
+console.log(newResult);
+
