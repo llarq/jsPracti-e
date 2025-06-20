@@ -108,25 +108,25 @@ const apartment = {
 // console.log(apartment['tags'][apartment['tags'].length - 1])
 
 
-apartment.price = 5000;
-apartment.rating = 4.7;
-apartment.owner.name = 'Henry Sibola';
-apartment.tags.push('trusted')
+// apartment.price = 5000;
+// apartment.rating = 4.7;
+// apartment.owner.name = 'Henry Sibola';
+// apartment.tags.push('trusted')
 
-apartment.area = 60;
-apartment.rooms = 3;
-apartment.location = {};
-apartment.location.country = 'Jamaica';
-apartment.location.city = 'Kingston';
+// apartment.area = 60;
+// apartment.rooms = 3;
+// apartment.location = {};
+// apartment.location.country = 'Jamaica';
+// apartment.location.city = 'Kingston';
 
 
-apartment.changePrice(7000)
+// apartment.changePrice(7000)
 
 // console.log(apartment);
 // console.log(apartment.price);
 // console.log(apartment.changePrice(7000));
 // console.log(apartment.isRatingGood());
-apartment.addNewTag("bestPrice")
+// apartment.addNewTag("bestPrice")
 // console.log(apartment.tags);
 
 
